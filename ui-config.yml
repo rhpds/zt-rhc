@@ -1,0 +1,24 @@
+---
+antora:
+  name: modules
+  dir: www
+  modules:
+    - name: "01-rhc-intro"
+      label: "Rhc Intro"
+      solveButton: true
+    - name: "02-connecting"
+      label: "Connecting"
+      solveButton: true
+    - name: "03-insights"
+      label: "Insights"
+      solveButton: true
+    - name: "04-insights-vuln"
+      label: "Insights Vuln"
+      solveButton: true
+    - name: "05-conclusion"
+      label: "Conclusion"
+      solveButton: true
+
+tabs:
+  - name: ">_ terminal"
+    url: /wetty

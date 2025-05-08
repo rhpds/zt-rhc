@@ -1,0 +1,9 @@
+---
+name: modules
+version: master
+
+asciidoc:
+  attributes:
+    lab_name: "The remote host configuration tool, rhc"
+    release-version: master
+    page-pagination: true
