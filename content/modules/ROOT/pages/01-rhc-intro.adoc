@@ -1,3 +1,7 @@
+:imagedir: ../assets/images
+
+== Introduction to rhc
+
 `+rhc+` is a tool used to register systems to Red Hat and connect them
 to the Hybrid Cloud Console at the same time. This is useful because the
 Hybrid Cloud Console is where you’ll find Red Hat Insights. Insights is
@@ -13,6 +17,29 @@ however may not have `+rhc+` installed. In which case you will either
 have to add it at install time, install it using your RHEL install
 media, or subscribe your system using `+subscription manager+` to
 install it.
+
+Let's register this system with Red Hat’s https://cloud.redhat.com[Hybrid Cloud Console] using the Red Hat Remote Host Configuration utility `+rhc+`. We will ensure that the system is connected and running the correct services.
+
+[source,bash,run]
+----
+rhc connect --activation-key 12-5-22-instruqt --organization 12451665
+----
+
+You should get output similar to this.
+
+.rhc connect output
+image::rhc_connect_output.png[rhc connect output]
+
+IMPORTANT: You will need the hostname of your system later, so jot it down.
+
+Run the following command to get the hostname of your system.
+
+[source,bash,run]
+----
+hostname
+----
+
+NOTE: For reference, the official documentation for `+rhc+` is available at https://access.redhat.com/documentation/en-us/red_hat_insights/2025/html-single/red_hat_remote_host_configuration_utility/index[Red Hat Remote Host Configuration Utility].
 
 Let’s have a look at the options `+rhc+` includes.
 

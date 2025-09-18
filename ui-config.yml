@@ -5,20 +5,20 @@ antora:
   modules:
     - name: "01-rhc-intro"
       label: "Rhc Intro"
-      solveButton: true
+      solveButton: false
     - name: "02-connecting"
       label: "Connecting"
-      solveButton: true
+      solveButton: false
     - name: "03-insights"
       label: "Insights"
-      solveButton: true
+      solveButton: false
     - name: "04-insights-vuln"
       label: "Insights Vuln"
-      solveButton: true
+      solveButton: false
     - name: "05-conclusion"
       label: "Conclusion"
-      solveButton: true
+      solveButton: false
 
 tabs:
   - name: ">_ terminal"
-    url: /wetty
+    url: /wetty_rhel/ssh/root

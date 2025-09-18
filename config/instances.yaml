@@ -9,11 +9,6 @@ virtualmachines:
     tags:
       - key: "AnsibleGroup"
         value: "bastions"
-    packages:
-      - tree
-      - tmux
-      - git
-      - vim
     tags:
       - key: "AnsibleGroup"
         value: "bastions"

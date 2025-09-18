@@ -1,6 +1,6 @@
 ____
 _NOTE:_ To make the inline images larger, expand this window.
-image:../assets/slider.png[Menu Slider]
+image:slider.png[Menu Slider]
 ____
 
 In the pane on the left, where your terminal was, you should now have a
@@ -22,16 +22,16 @@ Redhat1!
 ----
 
 .Red Hat Login screen
-image::../assets/cloud-console-login.png[Red Hat Login screen]
+image::cloud-console-login.png[Red Hat Login screen]
 
 .Red Hat Password screen
-image::../assets/cloud-console-login-pass.png[Red Hat Password screen]
+image::cloud-console-login-pass.png[Red Hat Password screen]
 
 Once you are logged in, using the credentials provided above, click on
 _RHEL_ inside of the _Red Hat Insights_ box.
 
 .cloud.redhat.com Homepage
-image::../assets/RHEl_insights_select.png[cloud.redhat.com Homepage]
+image::RHEl_insights_select.png[cloud.redhat.com Homepage]
 
 Now, if you click on the Inventory menu item on the left side and then
 click `+Systems+`, you’ll see a list of systems registered to insights
@@ -41,7 +41,7 @@ find your system’s name by running the `+hostname+` command in the
 `+terminal+` tab.
 
 .Insights Inventory Filter
-image::../assets/insights-inv-filter.png[Insights Inventory Filter]
+image::insights-inv-filter.png[Insights Inventory Filter]
 
 If you click on your system in the list, you will be brought to that
 host’s detail page.
@@ -53,7 +53,7 @@ Head over to the Advisor tab, and we’ll see if the Advisor service has
 any recommendations for our system.
 
 .Insights Advisor Inventory Tab
-image::../assets/insights-advisor-inv.png[Insights Advisor Inventory
+image::insights-advisor-inv.png[Insights Advisor Inventory
 Tab]
 
 You can see that our system has a few recommendations. The Remediation
@@ -62,7 +62,7 @@ if they need to be remediated manually. In this example, the first item
 in the list could be remediated via a playbook.
 
 .Insights Advisor Recommendations
-image::../assets/advisor-recommendations.png[Insights Advisor
+image::advisor-recommendations.png[Insights Advisor
 Recommendations]
 
 Next we’ll look at the Vulnerability tab.

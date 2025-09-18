@@ -2,24 +2,24 @@ Now that we’ve had a look at Advisor, let’s see what’s in the
 Vulnerability tab.
 
 .Insights Vulnerability Tab
-image::../assets/insights-vuln-tab.png[Insights Vulnerability Tab]
+image::insights-vuln-tab.png[Insights Vulnerability Tab]
 
 Here we can see all of the vulnerabilities that Insights knows about,
 that our system is not patched to resolve.
 
 .Insights vulnerability list
-image::../assets/insights-vuln-list.png[Insights vulnerability list]
+image::insights-vuln-list.png[Insights vulnerability list]
 
 Note that insights allows you to filter based on severity, or even
 whether there is a known exploit available for a given CVE.
 
 .Insights vulnerability filter
-image::../assets/insights-vuln-filter.png[Insights vulnerability filter]
+image::insights-vuln-filter.png[Insights vulnerability filter]
 
 Known exploits also show up with a tag in the vulnerabilities list.
 
 .Known Exploits
-image::../assets/insights-vuln-list-exp.png[Known Exploits]
+image::insights-vuln-list-exp.png[Known Exploits]
 
 You can click on the CVE ID to see a list of hosts that Insights has
 also identified as affected by this vulnerability, or the RHSA to go to
