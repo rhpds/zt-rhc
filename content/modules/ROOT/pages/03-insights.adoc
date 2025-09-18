@@ -2,9 +2,6 @@
 
 = Insights
 
-NOTE: To make the inline images larger, expand this window.
-image:slider.png[Menu Slider]
-
 In the pane on the left, where your terminal was, you should now have a
 button to launch the Hybrid Cloud Console in an external window. Press
 the button. You will then need to log in with the following credentials.
