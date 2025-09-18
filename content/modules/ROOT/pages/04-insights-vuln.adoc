@@ -1,3 +1,7 @@
+:imagesdir: ../assets/images
+
+= Insights Vulnerability
+
 Now that we’ve had a look at Advisor, let’s see what’s in the
 Vulnerability tab.
 
