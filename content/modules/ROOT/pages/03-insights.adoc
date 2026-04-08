@@ -13,7 +13,7 @@ Login:
 
 [source,js]
 ----
-rhel-750a
+rhel-8bf8
 ----
 
 Password:
